@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/the-soil-squad/static/css/main.56e8dfbc.css",
-    "main.js": "/the-soil-squad/static/js/main.42e46600.js",
+    "main.js": "/the-soil-squad/static/js/main.5f60bb47.js",
     "static/js/453.d9c0a1c9.chunk.js": "/the-soil-squad/static/js/453.d9c0a1c9.chunk.js",
     "static/media/video_bg_3.mp4": "/the-soil-squad/static/media/video_bg_3.337b35fe574a7ee8edb6.mp4",
-    "static/media/video_bg_2.mp4": "/the-soil-squad/static/media/video_bg_2.cbf6a86d8df8be5755ed.mp4",
+    "static/media/video_bg_2.mp4": "/the-soil-squad/static/media/video_bg_2.292903a68a95f575ad20.mp4",
     "static/media/favicon.webp": "/the-soil-squad/static/media/favicon.5eb89cc3efa0a9aaabd6.webp",
     "static/media/pptlogo.webp": "/the-soil-squad/static/media/pptlogo.1d1a0140896ed3b789be.webp",
     "static/media/userDummy.jpg": "/the-soil-squad/static/media/userDummy.d87a7e1e20b42eb7493b.jpg",
@@ -13,11 +13,11 @@
     "static/media/revicons.woff": "/the-soil-squad/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/the-soil-squad/index.html",
     "main.56e8dfbc.css.map": "/the-soil-squad/static/css/main.56e8dfbc.css.map",
-    "main.42e46600.js.map": "/the-soil-squad/static/js/main.42e46600.js.map",
+    "main.5f60bb47.js.map": "/the-soil-squad/static/js/main.5f60bb47.js.map",
     "453.d9c0a1c9.chunk.js.map": "/the-soil-squad/static/js/453.d9c0a1c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e8dfbc.css",
-    "static/js/main.42e46600.js"
+    "static/js/main.5f60bb47.js"
   ]
 }
