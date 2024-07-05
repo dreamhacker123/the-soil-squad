@@ -1,6 +1,7 @@
 import React from "react";
 import { Activity } from "../custom-hooks/useMembers";
 import { getImageId } from "../utils";
+import { useNavigate } from "react-router";
 
 const pptlogo = require("../public/pptlogo.webp");
 
@@ -10,11 +11,14 @@ export const ActivityCard = ({
   activity: Activity;
 }): JSX.Element => {
   getImageId(activity.coverImage);
+
+  const navigate = useNavigate();
+
   return (
     <div
       className="activity-card basis-1/6 flex justify-center cursor-pointer shadow-md"
       onClick={(e) => {
-        window.open(`/activities/${activity.id}`);
+       navigate(`activities/${activity.id}`);
         e.stopPropagation();
       }}
     >

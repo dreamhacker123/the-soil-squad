@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
        <QueryClientProvider client={queryClient}>
-       <BrowserRouter>
+       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <PageRoutes />
       </BrowserRouter>
        </QueryClientProvider>

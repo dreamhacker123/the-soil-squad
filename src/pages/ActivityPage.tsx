@@ -12,7 +12,7 @@ const filterData = (rawData:Activity[],searchId:number):{filteredData:Activity[]
 
 
 export const ActivityPage = ():JSX.Element=>{
-
+    console.log("Coming to this page")
     const {activityId} = useParams();
 
     const [activityData, setActivityData] = useState<Activity[]>([]);
