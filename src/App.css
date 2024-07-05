@@ -1,31 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.page-loading{
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  background-color: #b8dcff;
+  align-items: center;
+  justify-content: center;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .loading-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.video-bg{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: static;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  border: none;
+}
+.video-bg-2{
+  width: 100%;
+  object-fit: cover;
+  position: static;
+  z-index: -1;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.activity-card{
+  width: 500px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.activity-card:hover{
+  -webkit-filter: saturate(200%);
+  -webkit-filter: drop-shadow(2);
+}
+
+.activity-image{
+  border-radius: 5% 5% 0% 0%;
+}
+
+.activity-card-title{
+  font-size: 25px;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.activity-card-description{
+  font-size: 15px;
+  width: 250px;
+  opacity: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.activity-card-date{
+  font-size: 15px;
+  width: 250px;
+  opacity: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.activity-card-pptlink{
+  font-size: 15px;
+  width: 250px;
+  color: rgb(222, 62, 3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.cover-photo-bg{
+
+  background-image: linear-gradient(180deg,  #7f9c0a 0% ,#7f9c0a 50% ,#ffffff 50%, #ffffff 100%);
+  height: 400px;
+  align-items: center;
+  
+}
+
+.viewPptButton{
+  width: fit-content;
+  border: #d24e01 solid 2px;
+  color: #d24e01;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+
+.cover-photo{
+  border: solid white 5px;
+  margin-left: 50px;
+}
+.title-text{
+  font-size: 80px;
+}
+
+.member-image{
+  border-radius: 50%;
+}
+.image-box{
+  width: 150px;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.details{
+  text-transform: capitalize;
+  margin: 10px 0px;
+}
+.member-name{
+  font-size: 25px;
+  opacity: 80%;
+  margin-top: -5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.member-position{
+  font-size: 18px;
+  opacity: 65%;
+  margin-top: -10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.member-email{
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: lowercase;
+}
+.member-phone{
+  font-size: 15px;
+}
+
+.copyright{
+  font-size: 40px;
+  justify-self: flex-start;
+}
+
+.footer-section{
+  height: 300px;
+  background-color: #7f9c0a;
+  display: flex;
+  width: 100%;
+}
+
+.team-name{
+  color: #7f9c0a;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +192,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
