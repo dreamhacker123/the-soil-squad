@@ -9,7 +9,7 @@ export const Footer =():JSX.Element=>{
             </div>
             <div className="flex">
                 <div className="text-white font-sans mt-10 text-3xl">
-                Sri Konda Laxman State Horticulture University, Hyderabad, Telangana
+                Sri Konda Laxman Telangana State Horticulture University, Hyderabad, Telangana
             </div>
             </div>
         </div>
