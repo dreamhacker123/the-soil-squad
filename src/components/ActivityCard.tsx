@@ -18,7 +18,7 @@ export const ActivityCard = ({
     <div
       className="activity-card basis-1/6 flex justify-center cursor-pointer shadow-md"
       onClick={(e) => {
-       navigate(`activities/${activity.id}`);
+       navigate(`/activities/${activity.id}`);
         e.stopPropagation();
       }}
     >
@@ -45,8 +45,9 @@ export const ActivityCard = ({
             <button
               disabled={!activity.pptLink}
               className="mt-2"
-              onClick={() => {
+              onClick={(e) => {
                 window.open(activity.pptLink);
+                e.stopPropagation();
               }}
             >
               <span className="viewPptButton flex items-center">

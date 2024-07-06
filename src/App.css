@@ -28,9 +28,7 @@
 }
 
 .video-bg{
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  width: 100%;
   position: static;
   left: 0;
   right: 0;
@@ -39,6 +37,7 @@
   z-index: -1;
   border: none;
 }
+
 .video-bg-2{
   width: 100%;
   object-fit: cover;
@@ -113,7 +112,6 @@
   width: fit-content;
   border: #d24e01 solid 2px;
   color: #d24e01;
-  font-size: 25px;
   padding: 10px 20px;
   border-radius: 20px;
 }
@@ -127,9 +125,6 @@
   font-size: 80px;
 }
 
-.member-image{
-  border-radius: 50%;
-}
 .image-box{
   width: 150px;
   border-radius: 5%;

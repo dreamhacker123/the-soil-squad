@@ -19,8 +19,8 @@ export const ImageBox = ({data}:{data:MembersData}):JSX.Element=>{
 
     return (
         
-        <div className="image-box items-center basis-1/7">
-            <img className="member-image" height={200} width={200} alt="member-image" src={imageId} />
+        <div className="flex flex-col justify-center image-box items-center w-2/3">
+            <img className="rounded-full h-[150px]" alt="member-image" src={imageId} />
             <div className="details">
                 <p className="member-name" title={data.name}>{data.name}</p>
                 <p className="member-position" title={data.position}>{data.position}</p>

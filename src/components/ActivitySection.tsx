@@ -10,7 +10,7 @@ export const ActivitySection = ({isLoading,activities}:{isLoading:boolean;activi
 
     return (
             <div className="flex flex-col my-10 items-center overflow-x-hidden justify-center text-center">
-                <div className="flex title-text w-full mb-5 opacity-70 justify-center capitalize"> 
+                <div className="flex text-5xl md:text-6xl lg:text-8xl w-full mb-5 opacity-70 justify-center capitalize"> 
                     Our activities
                 </div>
                 <div className="flex flex-row flex-wrap my-4 justify-center gap-x-6 gap-y-8 w-3/4">
